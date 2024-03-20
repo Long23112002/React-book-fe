@@ -1,0 +1,4 @@
+.actived {
+	background-color: #e3ebf7;
+	border-radius: var(--mdb-pagination-border-radius);
+}

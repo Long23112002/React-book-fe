@@ -1,0 +1,23 @@
+.inp-number::-webkit-outer-spin-button,
+.inp-number::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.inp-number {
+	width: 20%;
+	outline: 0;
+	border: 0px;
+	font-weight: bold;
+	text-align: center;
+	flex: 1;
+}
+
+.inp-number:focus {
+	outline: none;
+	background-color: transparent;
+}
+
+.wrapper-select-quantity {
+	border: 1px solid #ccc;
+}

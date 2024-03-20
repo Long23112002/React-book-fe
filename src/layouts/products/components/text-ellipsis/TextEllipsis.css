@@ -1,0 +1,11 @@
+.text-ellipsis-container {
+	max-height: 50px; /* Đặt giá trị max-height tùy chọn */
+	overflow: hidden; /* Ẩn nội dung vượt quá max-height */
+	transition: all 0.5s ease-in-out; /* Áp dụng transition cho max-height */
+}
+
+.text-ellipsis-button {
+	width: 20%;
+	cursor: pointer;
+	text-decoration: underline;
+}
