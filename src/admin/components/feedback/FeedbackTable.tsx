@@ -23,7 +23,7 @@ export const FeedbackTable: React.FC = (props) => {
 			setData(feedbacks);
 			setLoading(false);
 		});
-	}, [data]);
+	}, []);
 
 	const handleChangeIsReaded = (idFeedback: any) => {
 		const token = localStorage.getItem("token");

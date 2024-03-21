@@ -354,13 +354,13 @@ const BookDetail: React.FC<BookDetailProps> = (props) => {
 								</div>
 								<div className='mt-3'>
 									<p>
-										Vận chuyển tới:{" "}
-										<strong>Quận Bình Thạnh, TP.HCM</strong>{" "}
+										Vận chuyển từ:{" "}
+										<strong>Quận Nam Từ Liêm Hà Nội</strong>{" "}
 										<span
 											className='ms-3 text-primary'
 											style={{ cursor: "pointer" }}
 										>
-											Thay đổi
+											{/* Thay đổi */}
 										</span>
 									</p>
 									<div className='d-flex align-items-center mt-3'>

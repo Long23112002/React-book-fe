@@ -11,7 +11,7 @@ export async function getAllFeedback(): Promise<FeedbackModel[]> {
    if (response) {
       feedbacks = await response._embedded.feedbackses.map((feedbackData: any) => ({
          ...feedbackData,
-         user: feedbackData._embedded.user.username,
+         user: feedbackData._embedded.users.username,
       }))
    }
 
